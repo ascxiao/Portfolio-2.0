@@ -40,9 +40,32 @@
             </section>
 
             <section class = "w-full min-h-screen">
-            <div>
+                <div class = "flex">
+                    <div class = "ml-[108px] flex-shrink-0">
+                        <img src = "\img\my-picture.png" alt = "My Photo"/>
+                    </div>
 
-            </div>
+                    <div class = "ml-[120px] max-w-4xl">
+                        <p class="text-6xl">who am i?</p>
+                        <div class="text-xl pt-6 space-y-4">
+                            <p>
+                                I’m a graduating BS Computer Science student at University of St. La Salle with a passion for crafting experiences—whether through art, front-end interfaces, data stories, or well-led projects.
+                            </p>
+                            <p>
+                                Always curious, always building—I’m constantly seeking opportunities to grow, create, and collaborate.
+                            </p>
+                        </div>
+
+                        <div class = "flex size-[48px] mt-[85px] space-x-6">
+                            <img src="/img/linkedin.png" alt="LinkedIn"/>
+                            <img src="/img/github.png" alt="Github"/>
+                            <img src="/img/instagram.png" alt="Instagram"/>
+                            <img src="/img/gmail.png" alt="Gmail"/>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
         </main>
     </body>
 </html>
